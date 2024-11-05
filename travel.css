@@ -1,0 +1,194 @@
+ul li{
+    display: inline;
+}
+ul li a{
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(124, 44, 94);
+    font-size: x-large;
+}
+ul li a:hover{
+    color: rgb(32, 42, 39);
+}
+.button:hover{
+    color: rgb(19, 133, 95);
+    background-color: rgb(245, 248, 251);
+}
+.button{
+    margin-left: 1100px;
+    color: rgb(19, 133, 95);
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 1000;
+    background-color: rgb(19, 133, 95);
+    color: white;
+}
+body{
+    background-image: url("front img/beach-1761410.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    margin-top: 135px;
+    text-align: center;
+    color: rgb(40, 53, 53);
+    font-weight: 100px;
+    font-style: oblique;
+    font-size: 55px;
+}
+.book{
+    margin-left: 46%; 
+    color: rgb(224, 162, 69);
+    border-radius: 5px;
+    font-size: large;
+    background-color:rgb(22, 95, 95);
+    padding: 5px;
+    border: 1px;
+}
+.book:hover{
+    background-color: cadetblue;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 159, 159);
+}
+
+a:hover{
+    color: rgb(124, 44, 94);
+}
+.place{
+    background-image: url("place bg/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tower{
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tower:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.khalifa{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.khalifa:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.taj{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.taj:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+   
+.rome{
+    width: 450px;
+    height: 300px;
+    margin-left: 2.5px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.rome:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.wall{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.wall:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.thailand{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.thailand:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.temple{
+    width: 450px;
+    height: 300px;
+    margin-left: 2.5px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.temple:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.singapore{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.singapore:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.egypt{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.egypt:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.tower1{
+    background-image: url("place bg/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+}
+p span{
+    font-weight: bolder;
+    color: rgb(19, 23, 23);
+}
+.frontpara{
+    color: antiquewhite;
+}
