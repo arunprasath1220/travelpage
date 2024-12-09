@@ -1,21 +1,25 @@
+.front{
+    margin-top: 25px;
+}
 ul li{
     display: inline;
 }
 ul li a{
     font-weight: 1000;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(124, 44, 94);
-    font-size: x-large;
+    color: whitesmoke;
+    font-size: xx-large;
 }
 ul li a:hover{
-    color: rgb(32, 42, 39);
+    color: rgb(125, 243, 208);
 }
 .button:hover{
     color: rgb(19, 133, 95);
     background-color: rgb(245, 248, 251);
 }
 .button{
-    margin-left: 1100px;
+    margin-top: -30px;
+    margin-left: 1300px;
     color: rgb(19, 133, 95);
     border-radius: 7px;
     font-size: medium;
@@ -24,15 +28,15 @@ ul li a:hover{
     color: white;
 }
 body{
-    background-image: url("front img/beach-1761410.jpg");
+    background-image: url("front img/train-178092_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 p{
-    margin-top: 135px;
+    margin-top: 155px;
     text-align: center;
-    color: rgb(40, 53, 53);
+    color: rgb(212, 254, 254);
     font-weight: 100px;
     font-style: oblique;
     font-size: 55px;
@@ -42,8 +46,9 @@ p{
     color: rgb(224, 162, 69);
     border-radius: 5px;
     font-size: large;
-    background-color:rgb(22, 95, 95);
-    padding: 5px;
+    font-weight: bolder;
+    background-color:rgb(31, 61, 62);
+    padding: 10px;
     border: 1px;
 }
 .book:hover{
@@ -176,7 +181,115 @@ a:hover{
     transform: scale(1.05);
     transition-duration: 1s;
 }
-.tower1{
+.england{
+    width: 450px;
+    height: 300px;
+    margin-left: 2.5px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.england:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.australia{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.australia:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.manali{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.manali:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.munar{
+    width: 450px;
+    height: 300px;
+    margin-left: 2.5px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.munar:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.singapore{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.singapore:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.kollihill{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.kollihill:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.ooty{
+    width: 450px;
+    height: 300px;
+    margin-left: 2.5px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ooty:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.bankok{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bankok:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+.hogenakkal{
+    width: 450px;
+    height: 300px;
+    margin-left: 70px; 
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hogenakkal:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+/* .tower1{
     background-image: url("place bg/images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,11 +297,81 @@ a:hover{
     height: 100%;
     position: fixed;
     top: 50px;
-}
+} */
 p span{
     font-weight: bolder;
-    color: rgb(19, 23, 23);
+    color: rgb(16, 240, 240);
 }
 .frontpara{
     color: antiquewhite;
 }
+.contact-information{
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    left:40%;
+    padding: 30px;
+    border-radius: 12px;
+   font-stretch: expanded;
+   background-color: rgb(232, 235, 234);
+   opacity: 0.75;
+}
+.login{
+    background-color: white;
+    width: 550px;
+    padding-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    border-radius: 25px;
+    margin-left: 450px;
+    opacity: 0.75;
+}
+.name{
+    margin-left: 150px;
+    color: black;
+    font-weight: bolder;
+}
+.name_b{
+    margin-left: 170px;
+    width: 270px;
+    height: 30px;
+    font-size: medium;
+}
+.name_t{
+    margin-left: 170px;
+    width: 270px;
+    height: 30px;
+    font-size: medium;
+    height: 85px;
+}
+.radio1{
+    margin-left: 160px;
+}
+.radio2{
+    margin-left: 5px;
+}
+.submit{
+    font-size: medium;
+    font-weight: 800;
+    font-style: bold;
+    background-color: rgb(226, 120, 247);
+    color: rgb(7, 7, 7);
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.submit:hover{
+    background-color: green;
+}
+.para{
+    background-color: black;
+    opacity: 0.95;
+    border-radius: 100px;
+    padding-top: 0px;
+}
+/* .quote{
+    background-color: whitesmoke;
+    width: 520px;
+} */
