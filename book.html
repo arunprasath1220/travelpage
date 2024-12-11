@@ -2,17 +2,21 @@
     <head>
         <title>Travel Page</title>
         <link rel="stylesheet" href="travel.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="book_bg">
         <div class="front">
-               <ul>
+               <ul class="about_info">
                 <li><a href="index.html">Home &nbsp; &nbsp;</a></li>
                 <li><a href="places.html">Places &nbsp; &nbsp;</a></li>
                 <li><a href="aboutus.html">About us &nbsp; &nbsp;</a></li>
                 <li><a href="contact.html">Contact</a></li>
                </ul>
         </div>
-        <div class="login">
+        <div class="book_login">
+            <h1 align="center" class="book_font">Booking...</h1>
             <h2 class="name">Name:</h2>
             <input type="text" placeholder="Enter your Name" class="name_b">
             <h2 class="name">E-Mail:</h2>
@@ -20,12 +24,12 @@
             <h2 class="name">Destination:</h2>
             <input type="text" placeholder="Choose your Destination" class="name_b">
             <h2 class="name">No. Of Adult:</h2>
-            <input type="number" class="name_b">
+            <input type="number" class="name_b" value="0">
             <h2 class="name">No. Of Children:</h2>
-            <input type="number" class="name_b">
+            <input type="number" class="name_b" value="0">
             <h2 class="name">Comment:</h2>
             <input type="text" class="name_t" placeholder="Tell the Facility you must need">
-            <button class="submit">GET TICKET'S</button>
+            <button class="submit2" align="center">GET TICKET'S</button>
         </div>
     </body>
 </html>
